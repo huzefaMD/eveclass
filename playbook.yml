@@ -1,0 +1,10 @@
+#this is sample playbook file
+#
+
+---
+target=demo
+become=ture
+command=echo
+
+  - group = devops
+  - tesitng = git
